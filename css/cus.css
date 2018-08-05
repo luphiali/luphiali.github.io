@@ -1,0 +1,251 @@
+body {
+  cursor: url("http://downloads.totallyfreecursors.com/cursor_files/giraffe2.cur"), 
+  url("http://downloads.totallyfreecursors.com/thumbnails/giraffe2.gif"), auto;}
+}
+
+/* Navigation */
+.navbar-brand {
+	margin-left: 15%;
+	font-size: 25px;
+}
+
+#topNav li {
+	font-size: 18px;
+	padding: 5px 10px;
+	margin-right: 50px;
+}
+
+#topNav li:hover {
+  font-weight: bold;
+}
+
+/* Home */
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#homename {
+  padding-bottom: 50px;
+  font-family: OCR A Std, monospace;
+}
+
+#home1 {
+	font-size: 150px;
+}
+
+#home2 {
+	font-size: 50px;
+}
+
+#home3 {
+	font-size: 30px;
+}
+
+/* About Me */
+#about img {
+	margin-top: 80px;
+}
+
+#intro {
+  margin-top: 50px;
+}
+
+#fa {
+	margin-top: 120px;	
+	font-size: 30px;
+}
+
+#fa i {
+	font-size: 60px;
+}
+
+.add {
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 30px;
+  -webkit-transition: all 500ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 500ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 500ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 500ms ease-in;
+  transform: scale(1);   
+}
+
+.add:hover {
+  z-index: 2;
+  -webkit-transition: all 500ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 500ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 500ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 500ms ease-in;
+  transform: scale(1.5);
+}
+
+.quote {
+	margin-top: 80px;
+}
+
+#funfacts {
+	margin-top: 150px;
+}
+
+#funfacts h3 {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+}
+
+#funfacts ul {
+  list-style: none;
+  padding: 0;
+}
+
+#funfacts li {
+  padding-left: 20px;
+}
+
+#funfacts li:before {
+  content: "✿";
+  margin-left: -20px;
+  display: inline-block;
+}
+
+#funfacts li:hover {
+  color: #4a9341;
+}
+
+/* Projects */
+.point {
+  padding-top: 200px;
+  padding-left: 80px;
+  color:  #4a9341;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.carousel-caption {
+  background-color: #967404;
+  color: #ffffff;
+  opacity: 0.85;  
+  max-width: 100%;
+  width: 100%;
+  height: 25%;
+  left: 0;
+  bottom: 0;
+  text-decoration: underline;
+}
+
+.carousel-caption:hover {
+  cursor: pointer;
+}
+
+.carousel-indicators li {
+  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+  background-color: #404040;
+}
+
+.carousel-indicators li.active {
+	background-color: #efe597;
+}
+
+.popover {
+  max-width: 35%;
+}
+
+/* Experience and Skills */
+.year {
+	margin-top: 80px;
+}
+
+.year p {
+	font-size: 20px;
+}
+
+.year h2 {
+	padding-left: 340px;
+}
+
+.skill {
+  padding-top: 100px;
+  margin-left: 30%;
+  font-size: 20px;
+  color:  #4a9341;
+}
+
+/* Contact Me */
+#conform {
+	padding-top: 0px;	
+  padding-bottom: 200px;
+}
+
+#context {
+	padding-top: 50px;
+}
+
+#context strong {
+	padding-left: 10px;
+}
+
+#context i {
+	font-size: 24px;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+#social i {	
+	padding-top: 8px;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+#last {
+	padding-bottom: 5px;
+	color: #ffffff;
+}
